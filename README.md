@@ -33,6 +33,7 @@ Your app is ready to be deployed!
 See the section about [deployment](#deployment) for more information.
 
 ### Roadmap : 
-- Add Entities ( Structure Data )
-- Add Flow
-- Add Tests  
+- [x] Add Tests setup
+- [x] Add Entities ( Structure Data )
+- [ ] Add Flow
+- [ ] Add Routing support

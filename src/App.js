@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import Messages from './containers/messages/messages.component'
+import Messages from './containers/messages/messages.component';
+import Header from './containers/header'
 
 class App extends Component {
   componentDidMount(){
@@ -7,7 +8,8 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="App" style={{ marginTop: "80px" }} >
+      <div className="App" >
+              <Header/>
               <Messages />
       </div>
     );
